@@ -2,7 +2,7 @@ import argparse
 import os
 from collections import defaultdict
 
-parser = argparse.ArgumentParser(epilog='Example of use: python main.py C:/Users/My_folder txt')
+parser = argparse.ArgumentParser(epilog='Example of use: python main.py "C:/Users/My_folder" txt')
 parser.add_argument('path',
                     help='Path to the folder you need to check for files with duplicate content in (example: "C:/Users/'
                          'My_folder")')
